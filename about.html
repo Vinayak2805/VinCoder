@@ -18,9 +18,9 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">VinCoder</a>
+            <a class="navbar-brand" href="/vinCoder/">VinCoder</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -29,10 +29,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/vinCoder/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/about.html">About</a>
+                        <a class="nav-link" href="/vinCoder/about.html">About</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -42,25 +42,28 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">PyGame (Latest)</a></li>
-                            <li><a class="dropdown-item" href="#">Web-developmenta></li>
+                            <li><a class="dropdown-item" href="#">Angular and other frameworks</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item" href="#">And many more :)</a></li>
                         </ul>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                        <a class="nav-link" href="/vinCoder/contact.html">Contact Us</a>
                     </li>
                     </li>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-light" type="submit">Search</button>
                 </form>
+                <div class="mx-2">
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+                </div>
             </div>
         </div>
     </nav>
-
 
     <div class="container my-4">
         <div class="row featurette d-flex justify-content-center align-items-center">
